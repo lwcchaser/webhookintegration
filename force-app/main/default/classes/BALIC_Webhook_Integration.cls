@@ -7,7 +7,7 @@ global static void doPost(){
         String reqBody = req.requestBody.toString();
         RestResponse response = RestContext.response;
     }catch(Exception e){
-        System.debug('Exception handled :'+e.getMessage());
+        System.debug('Exception handled : '+e.getMessage());
     }
     
 }
